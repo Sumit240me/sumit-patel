@@ -41,7 +41,6 @@ export default function ResumeSection() {
     <div className="resume-heading"><p className="section-number">03 / Background</p><a className="resume-download" href="/gen-ai.pdf" download="Sumit-Patel-Resume.pdf">Download resume as PDF</a></div>
     <div className="resume-grid">
       <div><h2>Education</h2><div className="entry"><p className="entry-date">Aug. 2023 - 2027</p><h3>B.Tech in Computer Science and Engineering</h3><p>Oriental Institute of Science and Technology · CGPA 7.96/10</p></div><div className="entry"><p className="entry-date">2022</p><h3>Class XII · CBSE</h3><p>Rao's Rukmani Devi Public School · 85.4%</p></div><div className="entry"><p className="entry-date">2020</p><h3>Class X · CBSE</h3><p>Rao's Rukmani Devi Public School · 88.17%</p></div></div>
-      <div><h2>Achievements</h2><div className="entry"><p className="entry-date">Hackathons</p><h3>Smart India Hackathon</h3><p>Participated in Smart India Hackathon and college-level hackathons.</p></div></div>
       <div className="certificates"><h2>Certificates</h2><div className="certificate-list">{certificates.map((certificate) => <CertificateCard key={certificate.title} certificate={certificate} />)}</div></div>
     </div>
   </section>
